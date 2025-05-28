@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
   <title>Your Name - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav>
-    <div class="nav-logo">Your Name</div>
-    <ul>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <div class="nav-container">
+      <div class="logo">Your Name</div>
+      <ul>
+        <li><a href="#work">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </nav>
 
   <header class="hero">
+    <div class="overlay"></div>
     <div class="hero-content">
       <h1>Your Name</h1>
       <p class="subtitle">Illustrator & Designer</p>
-      <p class="tagline">Bringing ideas to life through art and creativity.</p>
+      <a href="#work" class="hero-btn">View My Work</a>
     </div>
   </header>
 
   <section id="work" class="portfolio-section">
-    <h2>Selected Work</h2>
+    <h2>Selected Works</h2>
     <div class="portfolio-grid">
       <div class="portfolio-item">
         <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Project 1"/>
         <div class="portfolio-info">
-          <h3>Project Title 1</h3>
-          <p>Short project description goes here.</p>
+          <h3>Dreamscape</h3>
+          <p>Surreal landscape illustration</p>
         </div>
       </div>
       <div class="portfolio-item">
         <img src="https://images.unsplash.com/photo-1468449032654-4511bcd28971?auto=format&fit=crop&w=400&q=80" alt="Project 2"/>
         <div class="portfolio-info">
-          <h3>Project Title 2</h3>
-          <p>Short project description goes here.</p>
+          <h3>Urban Rhythm</h3>
+          <p>City-inspired vector art</p>
         </div>
       </div>
       <div class="portfolio-item">
-        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Project 3"/>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Project 3"/>
         <div class="portfolio-info">
-          <h3>Project Title 3</h3>
-          <p>Short project description goes here.</p>
+          <h3>Botanical Muse</h3>
+          <p>Line art botanical study</p>
         </div>
       </div>
       <!-- Add more projects as needed -->
@@ -54,22 +58,30 @@
 
   <section id="about" class="about-section">
     <h2>About Me</h2>
-    <p>Write a paragraph about yourself, your skills, and your creative journey. What inspires you? What kind of work do you love doing?</p>
+    <div class="about-content">
+      <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=200&h=200&q=80" alt="Portrait" class="about-avatar"/>
+      <div>
+        <p>Hello! I’m <strong>Your Name</strong>, a passionate illustrator and designer based in [Your City]. I create vivid, memorable visuals that tell stories and spark imagination. I love blending digital and traditional techniques for a unique, modern style.</p>
+        <p>Let’s collaborate to bring your ideas to life!</p>
+      </div>
+    </div>
   </section>
 
   <section id="contact" class="contact-section">
     <h2>Contact</h2>
-    <p>Want to work together or just say hello? Reach out below!</p>
+    <p>Want to work together or just say hi? Fill out the form below:</p>
     <form>
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
       <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
+      <button type="submit">Send Message</button>
     </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <div>
+      &copy; 2025 Your Name &mdash; Designed with inspiration from Wix
+    </div>
   </footer>
 </body>
 </html>
